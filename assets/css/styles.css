@@ -1,0 +1,148 @@
+
+
+*{margin:0 ; padding:0}
+
+header {background-color: black;}
+
+section.langue {
+	float: right;
+	color: white;
+	background-color:black;
+	margin-right: 20px;
+	font-family: 'Encode Sans Expanded', sans-serif;
+}
+.langue a {
+	text-decoration: none;
+	color: white;
+}
+.langue a:hover {font-weight: bold;
+	text-decoration: underline;
+	text-decoration-style: wavy;}
+
+body {
+	margin:0;
+  padding:0;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+}
+
+section { margin: 15px;
+          padding: 15px;
+					text-align: center
+        }
+section ul {list-style-type: none;}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  color: White;
+	font-weight: normal;
+	font-size: 38px;
+	font-family: 'Encode Sans Expanded', sans-serif;}
+
+h2 {font-weight: bold;
+		color: black;
+		font-family: 'Encode Sans Expanded', sans-serif;}
+
+h3 {font-size: 20px;
+		font-family: 'Encode Sans Expanded', sans-serif;
+	}
+
+ul {
+  padding-left: 20px;}
+
+p {font-size: 19px;
+	font-family: 'Encode Sans Expanded', sans-serif;}
+
+li {font-size: 19px;
+	font-family: 'Encode Sans Expanded', sans-serif;}
+
+	.main_menu li{
+		display: inline-block;
+		font-family: 'Encode Sans Expanded', sans-serif;
+		font-size: 20px;
+		list-style-type: none;
+		color: black;
+		margin: 10px;
+		font-weight: normal;
+		margin-right: 70px;
+	}
+	.main_menu li a {
+		text-decoration: none;
+		display: block;
+		border-bottom-style: solid;
+		border-bottom-color: black;
+		border-bottom-width: 3px;
+		color: black}
+	.main_menu li a:hover {font-weight: bold
+		}
+
+a {color: white}
+
+.image {
+				align-content: center}
+.image1 {align-self: center;}
+
+	footer{
+		width: 100%;
+		margin:0 auto;
+		background-color: black;
+		}
+	footer p{
+		margin:10px;
+		padding:10px 0;
+		font-size: 20px;
+		text-align:center;
+		color:white;
+		font-family: 'Encode Sans Expanded', sans-serif;}
+	footer p a{
+		text-decoration: none;
+		color: white}
+	footer p a:hover {font-weight: bold}
+
+	.noir {background-color: black;}
+	.blanc {background-color: white}
+	.color {color: white}
+	.barre {background-color: black;
+					width: 100%;
+					height: 10px}
+	#two {color:white}
+	#quatre {color: white}
+
+
+
+
+
+
+
+
+
+
+
+
+	/*MEDIA QUERIES*/
+
+/* /////////////////////////////////////*/
+								essai
+/*/////////////////////////////////////*/
+
+
+@media all and (min-width:470px){
+	header {background-color: crimson;}
+}
+@media all and (min-width:571px){
+	header {background-color: red;}
+}
+@media all and (min-width:655px){
+	header {background-color: blue;}
+}
+@media all and (min-width:684px){
+	header {background-color: crimson;}
+}
+@media all and (min-width:960px){
+	header {background-color: black;}
+}
+
+
+}

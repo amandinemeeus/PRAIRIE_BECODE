@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<title>CV</title>
+<link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Amandine Meeus</h1>
+  </header><br />
+  <nav>
+        <ul class="main_menu">
+          <li><a href="#one">STUDIES</a></li>
+          <li><a href="#two">EXPERIENCE</a></li>
+          <li><a href="#trois">LANGUAGES</a></li>
+          <li><a href="#quatre">SKILLS</a></li>
+          <li><a href="#cinq">TOOLS</a></li>
+          <li><a href="contact.php">CONTACT</a></li>
+        </ul>
+  </nav>
+  <section class="langue"><a href="index.php">FR</a> - EN</section>
+  <br /><br /><br /><br />
+<div class="barre"></div>
+
+<div class="blanc">
+  <section>
+    <h2 id="one"><br />STUDIES</h2><br />
+      <span class="image"><img src="assets/images/sc.jpg" width="50" height="50" alt="logo"/></span><h3>School center Sacré-Coeur of Jette:</h3><p>Higher general secondary education: Dutch (4), Mathematics (6), Sciences (3), Latin (4).</p><br />
+      <span class="image"><img src="assets/images/LogoUsaintlouis.jpg" width="50" height="50" alt="logo"/> </span><h3>Bachelor in French and Romance Languages ​​and Literatures, Minor in Information and Communication:</h3><p>Successful cycle with distinction. Université Saint-Louis (Brussels), Faculty of Philosophy, Letters and Humanities.</p><br />
+      <span class="image1"><img src="assets/images/ulbnorm.jpg" width="50" height="50" alt="logo"/></span><h3>Master in Cultural management: </h3><p>Successful Cycle and Memory with Distinction (Thesis on the Culture-Teaching Alliance: "What would be the implications for the cultural sector of multiple intelligences instruction? Observations in FWB"). University of Brussels (ULB), Faculty of Philosophy and Social Sciences.</p>
+  </section><br />
+</div>
+
+<div class="noir">
+  <section class="color">
+    <h2 id="two"><br />EXPERIENCE</h2><br />
+    <h3>Museum Armand Pellegrin (Hélécine)</h3>
+    <p>Internship from 02/03/2015 to 20/04/2015. Creation of a pedagogical booklet and assistance in the design of a new museum scenography.</p><br />
+    <h3>Center Armillaire (Cutural center of Jette) </h3>
+    <p>Internship from 12/10/2015 to 17/02/2016. Assistant manager in the administrative and cultural management, production, writing, graphic and communication functions.</p><br />
+    <h3>MusicArt (Tervuren) </h3>
+    <p>Volunteer since June 2016 (web manager). Computer graphics and web development: website creation <a href="http://www.musicartasbl.be">Site MusicArt</a></p>
+  </section><br />
+</div>
+
+<div class="blanc">
+  <section class="trois">
+    <h2 id="trois"><br />LANGUAGES</h2><br />
+      <ul>
+        <li>French</li>
+        <li>Dutch</li>
+        <li>Italian</li>
+        <li>English</li>
+      </ul>
+  </section><br />
+</div>
+
+<div class="noir">
+  <section class="color">
+    <h2 id="quatre"><br />SKILLS</h2><br />
+        <h3>French and Romance Languages ​​and Literatures </h3> <p> (writing, spelling, argumentation, analysis, synthesis, note taking, linguistics, literature ...).</p>
+        <h3>Management </h3> <p> (HRM, accounting, marketing, cultural policies, administration, cultural organizations ...).</p>
+        <h3>Communication and graphic design </ h3> <p> (press reviews, flyers, posters, websites ...).</p>
+        <h3>Pedagogy </h3> <p> (training in progress - DAEFLE) </p>
+        <h3>Web development </h3> <p>training in progress - BECODE) </p>
+  </section><br />
+</div>
+
+<div class="blanc">
+  <section class="cinq">
+    <h2 id="cinq"><br />TOOLS</h2><br />
+      <ul>
+        <li>Word</li>
+        <li>PowerPoint</li>
+        <li>Publisher</li>
+        <li>Access</li>
+        <li>Excel</li>
+        <li>Outlook</li>
+        <li>Adobe InDesign</li>
+        <li>Adobe Illustrator</li>
+        <li>Adobe Photoshop</li>
+        <li>Adobe Dreamweaver</li>
+        <li>NotePad++</li>
+        <li>Atom</li>
+        <li>Réseaux sociaux</li>
+        <li>Html5</li>
+        <li>CSS3</li>
+      </ul>
+  </section><br />
+</div>
+
+  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+  <script src='assets/js/jquer.js'></script>
+  <script>
+      $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+
+</body>
+
+<footer>
+  <p>CONTACT: <a href="mailto:amandine.meeus@alumni.ulb.be">amandine.meeus@alumni.ulb.be</a> <br /> Berré Street, 10 (1090 Brussels) - 02/425.07.13 - Permis B
+  </p>
+</footer>
+
+</html>
