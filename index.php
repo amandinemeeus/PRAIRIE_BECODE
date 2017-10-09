@@ -21,9 +21,9 @@
 <div class="blanc">
   <section>
       <h2 id="one" class="a"><br />ETUDES</h2><br /><br />
-      <span class="image"><img src="assets/images/sc.jpg" width="50" height="50" alt="logo"/></span><h3>Centre scolaire du Sacré-Coeur de Jette.</h3><p>Enseignement secondaire général supérieur: Néerlandais (4), Mathématique (6), Sciences (3), Latin (4).</p><br />
+      <span class="image1"><img src="assets/images/ulbnorm.jpg" width="50" height="50" alt="logo"/></span><h3>Master en Gestion culturelle: </h3><p>Cycle et mémoire réussis avec distinction (mémoire portant sur l’alliance culture-enseignement: « Quelles seraient les implications pour le secteur culturel d’un enseignement basé sur les intelligences multiples ? Observations en FWB »). Université libre de Bruxelles (ULB), Faculté de Philosophie et Sciences sociales.</p><br />
       <span class="image"><img src="assets/images/LogoUsaintlouis.jpg" width="50" height="50" alt="logo"/> </span><h3>Bachelier en Langues et littératures françaises et romanes, mineure en Information et communication: </h3><p>Cycle réussi avec distinction. Université Saint-Louis (Bruxelles), Faculté de Philosophie, Lettres et Sciences humaines.</p><br />
-      <span class="image1"><img src="assets/images/ulbnorm.jpg" width="50" height="50" alt="logo"/></span><h3>Master en Gestion culturelle: </h3><p>Cycle et mémoire réussis avec distinction (mémoire portant sur l’alliance culture-enseignement: « Quelles seraient les implications pour le secteur culturel d’un enseignement basé sur les intelligences multiples ? Observations en FWB »). Université libre de Bruxelles (ULB), Faculté de Philosophie et Sciences sociales.</p>
+      <span class="image"><img src="assets/images/sc.jpg" width="50" height="50" alt="logo"/></span><h3>Centre scolaire du Sacré-Coeur de Jette.</h3><p>Enseignement secondaire général supérieur: Néerlandais (4), Mathématique (6), Sciences (3), Latin (4).</p>
   </section><br />
 </div>
 
@@ -122,6 +122,7 @@
         } // End if
       });
     });
+  
   </script>
 
 </body>

@@ -13,7 +13,6 @@ form h2 { color:black;
 			font-family: 'Crimson Text', serif;
 			font-size: 36px;
 			margin:15px 0 10px 0}
-
 input,textarea{padding:5px; margin: 0; background-color:#FFF; width:200px; font-size:20px}
 #nom { margin: 10px 0 0 0; border: 1px solid black; font-family: 'Crimson Text', serif; color: black; width:420px}
 #email{ display: flex; margin: 20px 0 0 0; border: 1px solid black; font-family: 'Crimson Text', serif; color: black; width:420px}
@@ -32,27 +31,28 @@ input,textarea{padding:5px; margin: 0; background-color:#FFF; width:200px; font-
 		<section class="langue"><a href="index.php">FR </a>- <a href="anglais.html">EN</a></section>
 	</header><br /><br /><br /><br />
 
-<form id="contact" method="post" action="contact.php" enctype="multipart/form-data" onsubmit="return VerificationFormulaire(this)" >
+	<form id="contact" method="post" action="contact.php" enctype="multipart/form-data" onsubmit="return VerificationFormulaire(this)" >
 
-<h2>N'hésitez pas à me contacter !</h2>
+		<h2>N'hésitez pas à me contacter !</h2>
 
-<input type="text" id="nom" name="nom" placeholder="Nom et prénom" tabindex="1" />
-<input type="text" id="email" name="mail" placeholder="Email" tabindex="2" >
-<input type="text" id="objet" name="sujet" placeholder="Sujet"/><br />
-<input type="tel" id="tel" name="tel" placeholder="GSM" tabindex="3" /><br />
-<textarea id="message" name="message" placeholder="Message" tabindex="4" cols="20" rows="5"></textarea><br />
+		<input type="text" id="nom" name="nom" placeholder="Nom et prénom" tabindex="1" />
+		<input type="text" id="email" name="mail" placeholder="Email" tabindex="2" >
+		<input type="text" id="objet" name="sujet" placeholder="Sujet"/><br />
+		<input type="tel" id="tel" name="tel" placeholder="GSM" tabindex="3" /><br />
+		<textarea id="message" name="message" placeholder="Message" tabindex="4" cols="20" rows="5"></textarea><br />
 
-  <input name="fichier" id="fichier" type="file" /><br />
-    <input type="hidden" name="MAX_FILE_SIZE" value="2000000"> <!--Code pour limiter la taille du fichier-->
-    <br /><input type="submit" id="envoi_message" name="envoi_message" value="Envoyer"/>
+		<input name="fichier" id="fichier" type="file" /><br />
+		<input type="hidden" name="MAX_FILE_SIZE" value="2000000"> <!--Code pour limiter la taille du fichier-->
 
-    </form>
+		<br /><input type="submit" id="envoi_message" name="envoi_message" value="Envoyer"/>
+
+	</form>
 
 <br />
 
 <?php
 //============== L'ajout de pièce jointe à un message a été réalisé grâce à un très bon tutoriel de "siteduzero.com"
-//============== lien de la page : http://www.siteduzero.com/informatique/tutoriels/e-mail-envoyer-un-e-mail-en-php-1/annexe-joindre-un-fichier-1
+//============== lien de la page : https://openclassrooms.com/courses/e-mail-envoyer-un-e-mail-en-php
 
 if (isset($_POST["envoi_message"])) { //****** Le formulaire d'envoi de message a été validé
 
