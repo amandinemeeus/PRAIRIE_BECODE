@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <title>CV</title>
-<link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
 </head>
 
@@ -122,7 +122,7 @@
         } // End if
       });
     });
-  
+
   </script>
 
 </body>
