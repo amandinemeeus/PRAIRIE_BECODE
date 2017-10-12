@@ -1,7 +1,9 @@
 
 *{margin:0 ; padding:0}
 
-header {background-color: black;}
+header {background-color: black;
+	transition-property: background-color; /* Active la transition sur background-color */
+     transition-duration: 1s; /* La transition dure 1s */}
 
 section.langue {
 	float: right;
@@ -32,6 +34,8 @@ section { margin: 15px;
 					text-align: center
         }
 section ul {list-style-type: none;}
+
+header:hover {background-color: #2098D1}
 
 h1 {
   margin: 10px;
@@ -136,7 +140,7 @@ a {color: white}
 	.color {color: white}
 	.barre {background-color: black;
 					width: 100%;
-					height: 10px}
+					height: 10px;}
 	#two {color:white}
 	#quatre {color: white}
 
