@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <title>CV</title>
-<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
 <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
 </head>
 
@@ -51,8 +51,7 @@ input,textarea{padding:5px; margin: 0; background-color:#FFF; width:200px; font-
 <br />
 
 <?php
-//============== L'ajout de pièce jointe à un message a été réalisé grâce à un très bon tutoriel de "siteduzero.com"
-//============== lien de la page : https://openclassrooms.com/courses/e-mail-envoyer-un-e-mail-en-php
+//============== L'ajout de pièce jointe à un message a été réalisé grâce à https://openclassrooms.com/courses/e-mail-envoyer-un-e-mail-en-php
 
 if (isset($_POST["envoi_message"])) { //****** Le formulaire d'envoi de message a été validé
 

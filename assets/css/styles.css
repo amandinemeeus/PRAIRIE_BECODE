@@ -1,5 +1,4 @@
 
-
 *{margin:0 ; padding:0}
 
 header {background-color: black;}
@@ -17,7 +16,8 @@ section.langue {
 }
 .langue a:hover {font-weight: bold;
 	text-decoration: underline;
-	text-decoration-style: wavy;}
+	text-decoration-style: wavy;
+	color: #2098D1}
 
 body {
 	margin:0;
@@ -74,7 +74,7 @@ li {font-size: 19px;
 		color: black;
 	}
 	.main_menu li a:hover {font-weight: bold;
-		color:black;
+		color:#2098D1;
 			}
 
 			/* Underline From Left */
@@ -117,7 +117,7 @@ a {color: white}
 	footer{
 		width: 100%;
 		margin:0 auto;
-		background-color: black;
+		background-color: crimson;
 		}
 	footer p{
 		margin:10px;
@@ -143,26 +143,18 @@ a {color: white}
 
 
 
-
-
-
-
-
-
-
+/* /////////////////////////////////////*/
 
 	/*MEDIA QUERIES*/
 
-/* /////////////////////////////////////*/
-								essai
 /*/////////////////////////////////////*/
 
 
-@media all and (min-width:470px){
+@media all and (max-device-width: 480px){
 	header {background-color: crimson;}
 }
 @media all and (min-width:571px){
-	header {background-color: red;}
+	header {background-color: pink;}
 }
 @media all and (min-width:655px){
 	header {background-color: blue;}
@@ -172,7 +164,4 @@ a {color: white}
 }
 @media all and (min-width:960px){
 	header {background-color: black;}
-}
-
-
 }

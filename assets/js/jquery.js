@@ -11,12 +11,6 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $('header').mouseenter(function() {
-        $('header').fadeTo('fast', 0.8);
-    });
-});
-
-$(document).ready(function() {
     $('.noir').mouseenter(function() {
         $('.noir').fadeTo('fast', 0.8);
     });
